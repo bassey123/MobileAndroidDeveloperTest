@@ -1,10 +1,11 @@
-package com.example.mobileandroiddevelopertest
+package com.example.mobileandroiddevelopertest.activity
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Patterns
+import com.example.mobileandroiddevelopertest.R
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
