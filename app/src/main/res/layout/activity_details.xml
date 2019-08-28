@@ -15,30 +15,33 @@
             android:id="@+id/recipeName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="82dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="147dp"
             android:text="Recipe Name"
             android:textColor="#000"
             android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/headline" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
             android:id="@+id/calories"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="51dp"
-            android:layout_marginTop="99dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
             android:text="TextView"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/recipeName" />
+            app:layout_constraintTop_toBottomOf="@+id/ingredients0" />
 
     <TextView
             android:id="@+id/carbos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="51dp"
-            android:layout_marginTop="21dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
             android:text="TextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/calories" />
@@ -47,24 +50,154 @@
             android:id="@+id/country"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="73dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="30dp"
             android:text="TextView"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/weeks" />
 
     <TextView
-            android:id="@+id/ingredients"
+            android:id="@+id/ingredients0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="177dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="60dp"
             android:layout_marginEnd="176dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <TextView
+            android:id="@+id/ingredients1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients0" />
+
+    <TextView
+            android:id="@+id/ingredients2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients1" />
+
+    <TextView
+            android:id="@+id/ingredients3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients2" />
+
+    <TextView
+            android:id="@+id/ingredients4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients3" />
+
+    <TextView
+            android:id="@+id/ingredients5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients4" />
+
+    <TextView
+            android:id="@+id/ingredients6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients5" />
+
+    <TextView
+            android:id="@+id/ingredients7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients6" />
+
+    <TextView
+            android:id="@+id/ingredients8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients7" />
+
+    <TextView
+            android:id="@+id/ingredients9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients8" />
+
+    <TextView
+            android:id="@+id/ingredients10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="176dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients9" />
 
     <TextView
             android:id="@+id/description"
@@ -75,26 +208,26 @@
             android:layout_marginEnd="176dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/recipeName" />
+            app:layout_constraintTop_toBottomOf="@+id/id" />
 
     <TextView
             android:id="@+id/difficulty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="99dp"
-            android:layout_marginEnd="73dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/id" />
+            app:layout_constraintTop_toBottomOf="@+id/ingredients0" />
 
     <TextView
             android:id="@+id/fats"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="51dp"
-            android:layout_marginTop="17dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
             android:text="TextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/carbos" />
@@ -104,31 +237,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="177dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="176dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/recipeName" />
 
     <TextView
             android:id="@+id/id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="52dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="98dp"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="176dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/recipeName"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headline" />
 
     <TextView
             android:id="@+id/products"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="21dp"
-            android:layout_marginEnd="73dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/difficulty" />
@@ -137,8 +271,8 @@
             android:id="@+id/proteins"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="51dp"
-            android:layout_marginTop="18dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
             android:text="TextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/fats" />
@@ -147,8 +281,8 @@
             android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="17dp"
-            android:layout_marginEnd="73dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/products" />
@@ -157,30 +291,34 @@
             android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="51dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="140dp"
             android:text="TextView"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/proteins" />
 
     <TextView
             android:id="@+id/userName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="51dp"
-            android:layout_marginEnd="59dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="10dp"
             android:text="TextView"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/country"
-            app:layout_constraintStart_toEndOf="@+id/email" />
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/email"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients10"
+            app:layout_constraintVertical_bias="0.0" />
 
     <TextView
             android:id="@+id/weeks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
-            android:layout_marginEnd="73dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/time" />

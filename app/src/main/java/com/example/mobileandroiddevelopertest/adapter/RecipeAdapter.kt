@@ -35,6 +35,7 @@ class RecipeAdapter(
 
         p0.name.text = recipeList[p1].name
         Glide.with(context).load(recipeList[p1].image)
+            .error(R.drawable.ic_launcher_background)
             .apply(RequestOptions().centerCrop())
             .into(p0.image)
 
@@ -51,7 +52,17 @@ class RecipeAdapter(
             intent.putExtra("id", recipeList[p1].id)
             intent.putExtra("proteins", recipeList[p1].proteins)
             intent.putExtra("time", recipeList[p1].time)
-            intent.putExtra("ingredients", recipeList[p1].ingredients[0])
+            intent.putExtra("ingredients0", recipeList[p1].ingredients[0])
+            intent.putExtra("ingredients1", recipeList[p1].ingredients[1])
+            intent.putExtra("ingredients2", recipeList[p1].ingredients[2])
+            intent.putExtra("ingredients3", recipeList[p1].ingredients[3])
+            intent.putExtra("ingredients4", recipeList[p1].ingredients[4])
+            intent.putExtra("ingredients5", recipeList[p1].ingredients[5])
+            intent.putExtra("ingredients6", recipeList[p1].ingredients[6])
+            intent.putExtra("ingredients7", recipeList[p1].ingredients[7])
+            intent.putExtra("ingredients8", recipeList[p1].ingredients[8])
+            intent.putExtra("ingredients9", recipeList[p1].ingredients[9])
+            intent.putExtra("ingredients10", recipeList[p1].ingredients[10])
             intent.putExtra("products", recipeList[p1].products[0])
             intent.putExtra("weeks", recipeList[p1].weeks[0])
             intent.putExtra("userEmail", recipeList[p1].user.email)

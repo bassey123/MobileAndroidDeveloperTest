@@ -69,9 +69,59 @@ class DetailsActivity : AppCompatActivity() {
             time.text = data
         }
 
-        if (intent.hasExtra("ingredients")) {
-            val data = intent.getStringExtra("ingredients")
-            ingredients.text = data
+        if (intent.hasExtra("ingredients0")) {
+            val data = intent.getStringExtra("ingredients0")
+            ingredients0.text = data
+        }
+
+        if (intent.hasExtra("ingredients1")) {
+            val data = intent.getStringExtra("ingredients1")
+            ingredients1.text = data
+        }
+
+        if (intent.hasExtra("ingredients2")) {
+            val data = intent.getStringExtra("ingredients2")
+            ingredients2.text = data
+        }
+
+        if (intent.hasExtra("ingredients3")) {
+            val data = intent.getStringExtra("ingredients3")
+            ingredients3.text = data
+        }
+
+        if (intent.hasExtra("ingredients4")) {
+            val data = intent.getStringExtra("ingredients4")
+            ingredients4.text = data
+        }
+
+        if (intent.hasExtra("ingredients5")) {
+            val data = intent.getStringExtra("ingredients5")
+            ingredients5.text = data
+        }
+
+        if (intent.hasExtra("ingredients6")) {
+            val data = intent.getStringExtra("ingredients6")
+            ingredients6.text = data
+        }
+
+        if (intent.hasExtra("ingredients7")) {
+            val data = intent.getStringExtra("ingredients7")
+            ingredients7.text = data
+        }
+
+        if (intent.hasExtra("ingredients8")) {
+            val data = intent.getStringExtra("ingredients8")
+            ingredients8.text = data
+        }
+
+        if (intent.hasExtra("ingredients9")) {
+            val data = intent.getStringExtra("ingredients9")
+            ingredients9.text = data
+        }
+
+        if (intent.hasExtra("ingredients10")) {
+            val data = intent.getStringExtra("ingredients10")
+            ingredients10.text = data
         }
 
         if (intent.hasExtra("products")) {
