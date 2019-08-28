@@ -40,7 +40,22 @@ class RecipeAdapter(
 
         p0.itemView.setOnClickListener {
             val intent = Intent(context, DetailsActivity::class.java)
-            intent.putExtra(Intent.EXTRA_TEXT, recipeList[p1].name)
+            intent.putExtra("name", recipeList[p1].name)
+            intent.putExtra("calories", recipeList[p1].calories)
+            intent.putExtra("carbos", recipeList[p1].carbos)
+            intent.putExtra("country", recipeList[p1].country)
+            intent.putExtra("description", recipeList[p1].description)
+            intent.putExtra("difficulty", recipeList[p1].difficulty)
+            intent.putExtra("fats", recipeList[p1].fats)
+            intent.putExtra("headline", recipeList[p1].headline)
+            intent.putExtra("id", recipeList[p1].id)
+            intent.putExtra("proteins", recipeList[p1].proteins)
+            intent.putExtra("time", recipeList[p1].time)
+            intent.putExtra("ingredients", recipeList[p1].ingredients[0])
+            intent.putExtra("products", recipeList[p1].products[0])
+            intent.putExtra("weeks", recipeList[p1].weeks[0])
+            intent.putExtra("userEmail", recipeList[p1].user.email)
+            intent.putExtra("userName", recipeList[p1].user.name)
             context.startActivity(intent)
         }
     }
