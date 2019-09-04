@@ -17,6 +17,7 @@ class RecipeActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
     lateinit var recyclerAdapter: RecipeAdapter
+    private lateinit var recipeList: List<RecipeModel>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,6 +45,10 @@ class RecipeActivity : AppCompatActivity() {
             }
 
         })
+    }
+
+    fun getRecipe(position: Int) : RecipeModel {
+        return recipeList[position]
     }
 }
 

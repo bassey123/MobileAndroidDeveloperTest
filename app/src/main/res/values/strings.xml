@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mobile Android Developer Test</string>
+    <string name="app_name">Recipe App</string>
     <string name="welcome_to_recipes">Welcome to Recipes</string>
     <string name="login_to_continue">LogIn to Continue</string>
     <string name="email">Email</string>
